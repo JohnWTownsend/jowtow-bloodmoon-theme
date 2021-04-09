@@ -1,0 +1,23 @@
+{
+    "name": "jowtow-bloodmoon-theme",
+    "displayName": "jowtow-bloodmoon-theme",
+    "description": "A dark theme with dark red accents",
+    "publisher": "jowtow",
+    "version": "0.0.3",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "icon": "bloodmoon.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "jowtow-bloodmoon-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jowtow-bloodmoon-theme-color-theme.json"
+            }
+        ]
+    }
+}
